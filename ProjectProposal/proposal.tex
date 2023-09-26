@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
+                                                          % if you need a4paper
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+
+\IEEEoverridecommandlockouts                              % This command is only
+                                                          % needed if you want to
+                                                          % use the \thanks command
+\overrideIEEEmargins
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\title{\LARGE \bf
+Know Thy Enemy Project Proposal
+}
+
+\author{Clay Shubert, Lu Liu, William Quesinberry, Wesley Fortner, and Ethan Ly % <-this % stops a space
+}
+
+
+\begin{document}
+
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+
+\begin{abstract}
+
+This is a project proposal for KnowThyEnemy, a program that determines the most common origin country of sophisticated attacks (Zero-Day, Ransomware, IoT) and ranks them. Industries may utilize to better understand their attack surface. 
+
+\end{abstract}
+
+
+
+\section{Project Objective}
+
+KnowThyEnemy is a project thats aims to provide more visibility to industries who are often targeted by sophisticated cyberattacks. 
+Oftentimes, industries are battling attacks of all different kinds, requiring them to maintain several block lists full of IP addresses and other indicators that have attempted attacks in the past. 
+This can become problematic because the biggest danger in security is not knowing and industries can still be targeted by unique indicators. 
+KnowThyEnemy aims to provide a solution to this problem by providing a ranking of the most common origin countries of sophisticated attacks. 
+This ranking will allow industries to better understand their attack surface and take the necessary precautions to protect themselves. 
+Using the rankings, industries may chose to apply geo-blocking to the origin country with the highest ranking if access from this location is not required for business operations.
+This might be especially beneficial to small businesses whom may not have the resources to maintain an ever-changing and large block list or the ability to pay for a third party service to do so.
+
+\section{Motivation}
+
+The motivation for this project comes from experience and interest in the field of cybersecurity. 
+The connection between threat actors and their location is an interesting topic and we are interesting in seeing if there is any correlation between attack location and sophistication. 
+We also are interested in investigating how open-source can be used to analyze and visualize data to provide a solution to a real-world problem.
+
+\section{Data Sources}
+
+The data sources for this project will be the following:
+\begin{itemize}
+    \item \textbf{AlienVault OTX:} AlienVault Open Threat Exchange (OTX) is an open information-sharing and analysis network that provides real-time, actionable threat intelligence. AlienVault OTX provides an API that allows users to retrieve this data programmatically. 
+    \item \textbf{VirusTotal:} VirusTotal is a free service that analyzes suspicious files and URLs and facilitates the quick detection of viruses, worms, trojans, and all kinds of malware. It is a repository of known malware samples and a service that analyzes them. VirusTotal provides an API that allows users to retrieve this data programmatically.
+    \item \textbf{AbuseIPDB:} AbuseIPDB is a free project to check IP address reputation. It includes information about the IP such as Country Name, Hostname, Email, Community Rating, etc. The project is used by tens of thousands of users every day. AbuseIPDB provides an API that allows users to retrieve this data programmatically.
+    \item \textbf{URLhaus:} URLhaus is a project from abuse.ch with the goal of sharing malicious URLs that are being used for malware distribution. URLhaus provides an API that allows users to retrieve this data programmatically.
+\end{itemize}
+
+\section{Member Responsibilities}
+
+\begin{itemize}
+    \item \textbf{Clay Shubert:} Clay will be responsible for the data collection and analysis. He will also be responsible for the project report and presentation.
+    \item \textbf{Lu Liu:} Lu will be responsible for the data collection and analysis. She will also be responsible for the project report and presentation.
+    \item \textbf{William Quesinberry:} William will be responsible for the data collection and analysis. He will also be responsible for the project report and presentation.
+    \item \textbf{Wesley Fortner:} Wesley will be responsible for the data collection and analysis. He will also be responsible for the project report and presentation.
+    \item \textbf{Ethan Ly:} Ethan will be responsible for the data collection and analysis. He will also be responsible for the project report and presentation.
+\end{itemize}
+
+\section{Milestones}
+
+    \subsection*{Milestone 1: Data Collection}
+    \begin{itemize}
+        \item \textbf{Description:} Collect data from the data sources listed above.
+        \item \textbf{Due Date:} 10/15/2023
+        \item \textbf{Responsible Members:} All
+    \end{itemize}
+    \subsection*{Milestone 2: Data Analysis}
+    \begin{itemize}
+        \item \textbf{Description:} Analyze the data collected and determine the most common origin countries of sophisticated attacks.
+        \item \textbf{Due Date:} 10/31/2023
+        \item \textbf{Responsible Members:} All
+    \end{itemize}
+    \subsection*{Milestone 3: Data Visualization and Error Correction}
+    \begin{itemize}
+        \item \textbf{Description:} Visualize the data and correct any errors.
+        \item \textbf{Due Date:} 11/15/2023
+        \item \textbf{Responsible Members:} All
+    \end{itemize}
+    \subsection*{Milestone 4: Project Report}
+    \begin{itemize}
+        \item \textbf{Description:} Write the project report.
+        \item \textbf{Due Date:} Late November 2023
+        \item \textbf{Responsible Members:} All
+        \item \textbf{Deliverable:} Project Report
+    \end{itemize}
+    \subsection*{Milestone 5: Project Presentation}
+    \begin{itemize}
+        \item \textbf{Description:} Create the project presentation.
+        \item \textbf{Due Date:} Late November 2023
+        \item \textbf{Responsible Members:} All
+        \item \textbf{Deliverable:} Project Presentation
+    \end{itemize}
+
+
+\section{Expected Outcome}
+
+At the end of this project we expect to provide deliverables that include a project report and presentation outlining the details of our work. 
+In addition, we expect to deliver a presentation to the class of our findings and results. 
+Lastly, we expect to provide a working program that can be used to determine the most common origin countries of sophisticated attacks that will live in the open source community. 
+
+\end{document}
