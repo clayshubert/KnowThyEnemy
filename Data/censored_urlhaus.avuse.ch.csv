@@ -1,0 +1,11 @@
+################################################################
+# abuse.ch URLhaus Database Dump (CSV - online URLs only)      #
+# Last updated: 2023-10-24 15:55:21 (UTC)                      #
+#                                                              #
+# Terms Of Use: https://urlhaus.abuse.ch/api/                  #
+# For questions please contact urlhaus [at] abuse.ch           #
+################################################################
+#
+# id,dateadded,url,url_status,last_online,threat,tags,urlhaus_link,reporter
+
+PLACE UNCENSORED DATA DOWNLOADED FROM URLHAUS HERE - DATA CONTAINS REAL MALWARE LINKS AND IS REMOVED FROM THIS REPO...DO NOT CLICK LINKS
