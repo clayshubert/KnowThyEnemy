@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 Data/uncensored_urlhaus.abuse.ch.csv
+
+.git
