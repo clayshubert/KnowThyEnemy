@@ -159,3 +159,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 Data/uncensored_urlhaus.abuse.ch.csv
+ProjectProposal/proposal.aux
+.gitignore
+ProjectProposal/proposal.fdb_latexmk
+.gitignore
+.gitignore
+ProjectProposal/proposal.fls
+ProjectProposal/proposal.synctex.gz
