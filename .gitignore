@@ -166,3 +166,5 @@ ProjectProposal/proposal.fdb_latexmk
 .gitignore
 ProjectProposal/proposal.fls
 ProjectProposal/proposal.synctex.gz
+ProjectProposal/
+
